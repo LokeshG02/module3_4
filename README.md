@@ -1,7 +1,7 @@
-# DegenToken - ERC20 Token for Degen Gaming
+# DegenToken 
 
 ## Description
-DegenToken is an ERC20 token designed for the Degen Gaming platform on the Avalanche network. This smart contract is based on the OpenZeppelin library and includes features like token minting (for the platform owner), transferring tokens, and burning tokens. Additionally, players can redeem their tokens for in-game items from the store.
+DegenToken is an ERC20 token designed for the Degen Gaming platform on the Avalanche network. 
 
 ### Getting Started
 1. To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
@@ -24,9 +24,5 @@ DegenToken is an ERC20 token designed for the Degen Gaming platform on the Avala
 5. Players can burn their tokens using the burn function when they are no longer needed.
 
 ## Authors
-vaibhav chhillar 
-vaicozchhillar@gmail.com
+Lokesh Gupta
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
