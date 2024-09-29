@@ -50,6 +50,7 @@ contract DegenToken is ERC20, Ownable(msg.sender) {
         require(balanceOf(msg.sender) >= price, "Not enough Degen Tokens to redeem this item");
 
         _burn(msg.sender, price);
+        playerItems[msg.sender][itemIndex] += 1;
         emit RedeemItem(msg.sender, storeItems[itemIndex].itemName, price);
     }
 
